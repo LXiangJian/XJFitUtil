@@ -54,6 +54,7 @@
 		EE0966A41F21A71C00AAAC02 /* FitUtilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitUtilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE0966A81F21A71C00AAAC02 /* FitUtilUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitUtilUITests.m; sourceTree = "<group>"; };
 		EE0966AA1F21A71C00AAAC02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE2E73501F289D7200389F93 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		EE4EE5DF1F21DC830027F7CF /* FitEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FitEncoder.h; sourceTree = "<group>"; };
 		EE4EE5E01F21DC830027F7CF /* FitEncoder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FitEncoder.mm; sourceTree = "<group>"; };
 		EEB510E91F288F5C00104F49 /* libPods-FitSdkCppiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPods-FitSdkCppiOS.a"; sourceTree = "<group>"; };
@@ -157,6 +158,7 @@
 		EE0966B61F21A8FE00AAAC02 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EE2E73501F289D7200389F93 /* libc++.tbd */,
 				EEB510E91F288F5C00104F49 /* libPods-FitSdkCppiOS.a */,
 			);
 			name = Frameworks;

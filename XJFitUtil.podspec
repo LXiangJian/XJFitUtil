@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "XJFitUtil"
-  s.version          = "1.8.0"
+  s.version          = "1.9.0"
   s.summary          = "A util for fit encode and decode on iOS."
   s.description      = <<-DESC
                        It is a util for encoding and decoding fit files used on iOS, which implement by Objective-C and C++.
@@ -16,5 +16,7 @@ Pod::Spec.new do |s|
   s.source_files = "XJFitUtil/*.{h,mm,hpp,cpp}"  
 
   s.vendored_libraries ='XJFitUtil/libPods-FitSdkCppiOS.a'
+   s.libraries           = 'c++'
+
 
 end
