@@ -15,8 +15,8 @@
 		EE0966931F21A71C00AAAC02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0966911F21A71C00AAAC02 /* LaunchScreen.storyboard */; };
 		EE09669E1F21A71C00AAAC02 /* FitUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE09669D1F21A71C00AAAC02 /* FitUtilTests.m */; };
 		EE0966A91F21A71C00AAAC02 /* FitUtilUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0966A81F21A71C00AAAC02 /* FitUtilUITests.m */; };
-		EE0966B81F21A8FE00AAAC02 /* libFitSdkCppiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0966B71F21A8FE00AAAC02 /* libFitSdkCppiOS.a */; };
 		EE4EE5E11F21DC830027F7CF /* FitEncoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = EE4EE5E01F21DC830027F7CF /* FitEncoder.mm */; };
+		EEB510EA1F288F5C00104F49 /* libPods-FitSdkCppiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB510E91F288F5C00104F49 /* libPods-FitSdkCppiOS.a */; };
 		EEDD8B371F25A6CC00115251 /* Example.mm in Sources */ = {isa = PBXBuildFile; fileRef = EEDD8B361F25A6CC00115251 /* Example.mm */; };
 /* End PBXBuildFile section */
 
@@ -54,9 +54,9 @@
 		EE0966A41F21A71C00AAAC02 /* FitUtilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitUtilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE0966A81F21A71C00AAAC02 /* FitUtilUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitUtilUITests.m; sourceTree = "<group>"; };
 		EE0966AA1F21A71C00AAAC02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE0966B71F21A8FE00AAAC02 /* libFitSdkCppiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFitSdkCppiOS.a; sourceTree = "<group>"; };
 		EE4EE5DF1F21DC830027F7CF /* FitEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FitEncoder.h; sourceTree = "<group>"; };
 		EE4EE5E01F21DC830027F7CF /* FitEncoder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FitEncoder.mm; sourceTree = "<group>"; };
+		EEB510E91F288F5C00104F49 /* libPods-FitSdkCppiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPods-FitSdkCppiOS.a"; sourceTree = "<group>"; };
 		EEDD8B351F25A6CC00115251 /* Example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example.h; sourceTree = "<group>"; };
 		EEDD8B361F25A6CC00115251 /* Example.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Example.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE0966B81F21A8FE00AAAC02 /* libFitSdkCppiOS.a in Frameworks */,
+				EEB510EA1F288F5C00104F49 /* libPods-FitSdkCppiOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,7 +157,7 @@
 		EE0966B61F21A8FE00AAAC02 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EE0966B71F21A8FE00AAAC02 /* libFitSdkCppiOS.a */,
+				EEB510E91F288F5C00104F49 /* libPods-FitSdkCppiOS.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
