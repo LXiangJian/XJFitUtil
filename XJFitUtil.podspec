@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
 
   s.source_files = "XJFitUtil/*.{h,mm,hpp,cpp}"  
 
-  s.libraries    ='Pods-FitSdkCppiOS'
+  spec.vendored_libraries ='XJFitUtil/*.{a}'
 
 end
