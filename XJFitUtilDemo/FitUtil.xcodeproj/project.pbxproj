@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE0966851F21A71C00AAAC02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0966841F21A71C00AAAC02 /* main.m */; };
+		EE0966881F21A71C00AAAC02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0966871F21A71C00AAAC02 /* AppDelegate.m */; };
+		EE09668B1F21A71C00AAAC02 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = EE09668A1F21A71C00AAAC02 /* ViewController.mm */; };
+		EE09668E1F21A71C00AAAC02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE09668C1F21A71C00AAAC02 /* Main.storyboard */; };
+		EE0966901F21A71C00AAAC02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE09668F1F21A71C00AAAC02 /* Assets.xcassets */; };
+		EE0966931F21A71C00AAAC02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0966911F21A71C00AAAC02 /* LaunchScreen.storyboard */; };
+		EE09669E1F21A71C00AAAC02 /* FitUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE09669D1F21A71C00AAAC02 /* FitUtilTests.m */; };
+		EE0966A91F21A71C00AAAC02 /* FitUtilUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0966A81F21A71C00AAAC02 /* FitUtilUITests.m */; };
+		EE0966B81F21A8FE00AAAC02 /* libFitSdkCppiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0966B71F21A8FE00AAAC02 /* libFitSdkCppiOS.a */; };
+		EE4EE5E11F21DC830027F7CF /* FitEncoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = EE4EE5E01F21DC830027F7CF /* FitEncoder.mm */; };
+		EEDD8B371F25A6CC00115251 /* Example.mm in Sources */ = {isa = PBXBuildFile; fileRef = EEDD8B361F25A6CC00115251 /* Example.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE09669A1F21A71C00AAAC02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE0966781F21A71B00AAAC02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE09667F1F21A71B00AAAC02;
+			remoteInfo = FitUtil;
+		};
+		EE0966A51F21A71C00AAAC02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE0966781F21A71B00AAAC02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE09667F1F21A71B00AAAC02;
+			remoteInfo = FitUtil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE0966801F21A71B00AAAC02 /* FitUtil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitUtil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0966841F21A71C00AAAC02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE0966861F21A71C00AAAC02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE0966871F21A71C00AAAC02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE0966891F21A71C00AAAC02 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE09668A1F21A71C00AAAC02 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		EE09668D1F21A71C00AAAC02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE09668F1F21A71C00AAAC02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE0966921F21A71C00AAAC02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE0966941F21A71C00AAAC02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE0966991F21A71C00AAAC02 /* FitUtilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitUtilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE09669D1F21A71C00AAAC02 /* FitUtilTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitUtilTests.m; sourceTree = "<group>"; };
+		EE09669F1F21A71C00AAAC02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE0966A41F21A71C00AAAC02 /* FitUtilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitUtilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0966A81F21A71C00AAAC02 /* FitUtilUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitUtilUITests.m; sourceTree = "<group>"; };
+		EE0966AA1F21A71C00AAAC02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE0966B71F21A8FE00AAAC02 /* libFitSdkCppiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFitSdkCppiOS.a; sourceTree = "<group>"; };
+		EE4EE5DF1F21DC830027F7CF /* FitEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FitEncoder.h; sourceTree = "<group>"; };
+		EE4EE5E01F21DC830027F7CF /* FitEncoder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FitEncoder.mm; sourceTree = "<group>"; };
+		EEDD8B351F25A6CC00115251 /* Example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example.h; sourceTree = "<group>"; };
+		EEDD8B361F25A6CC00115251 /* Example.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Example.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE09667D1F21A71B00AAAC02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0966B81F21A8FE00AAAC02 /* libFitSdkCppiOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0966961F21A71C00AAAC02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0966A11F21A71C00AAAC02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE0966771F21A71B00AAAC02 = {
+			isa = PBXGroup;
+			children = (
+				EE0966821F21A71B00AAAC02 /* FitUtil */,
+				EE09669C1F21A71C00AAAC02 /* FitUtilTests */,
+				EE0966A71F21A71C00AAAC02 /* FitUtilUITests */,
+				EE0966811F21A71B00AAAC02 /* Products */,
+				EE0966B61F21A8FE00AAAC02 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE0966811F21A71B00AAAC02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE0966801F21A71B00AAAC02 /* FitUtil.app */,
+				EE0966991F21A71C00AAAC02 /* FitUtilTests.xctest */,
+				EE0966A41F21A71C00AAAC02 /* FitUtilUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE0966821F21A71B00AAAC02 /* FitUtil */ = {
+			isa = PBXGroup;
+			children = (
+				EE4EE5DF1F21DC830027F7CF /* FitEncoder.h */,
+				EE4EE5E01F21DC830027F7CF /* FitEncoder.mm */,
+				EE0966861F21A71C00AAAC02 /* AppDelegate.h */,
+				EE0966871F21A71C00AAAC02 /* AppDelegate.m */,
+				EE0966891F21A71C00AAAC02 /* ViewController.h */,
+				EE09668A1F21A71C00AAAC02 /* ViewController.mm */,
+				EE09668C1F21A71C00AAAC02 /* Main.storyboard */,
+				EE09668F1F21A71C00AAAC02 /* Assets.xcassets */,
+				EE0966911F21A71C00AAAC02 /* LaunchScreen.storyboard */,
+				EE0966941F21A71C00AAAC02 /* Info.plist */,
+				EE0966831F21A71C00AAAC02 /* Supporting Files */,
+				EEDD8B351F25A6CC00115251 /* Example.h */,
+				EEDD8B361F25A6CC00115251 /* Example.mm */,
+			);
+			path = FitUtil;
+			sourceTree = "<group>";
+		};
+		EE0966831F21A71C00AAAC02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE0966841F21A71C00AAAC02 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE09669C1F21A71C00AAAC02 /* FitUtilTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE09669D1F21A71C00AAAC02 /* FitUtilTests.m */,
+				EE09669F1F21A71C00AAAC02 /* Info.plist */,
+			);
+			path = FitUtilTests;
+			sourceTree = "<group>";
+		};
+		EE0966A71F21A71C00AAAC02 /* FitUtilUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE0966A81F21A71C00AAAC02 /* FitUtilUITests.m */,
+				EE0966AA1F21A71C00AAAC02 /* Info.plist */,
+			);
+			path = FitUtilUITests;
+			sourceTree = "<group>";
+		};
+		EE0966B61F21A8FE00AAAC02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE0966B71F21A8FE00AAAC02 /* libFitSdkCppiOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE09667F1F21A71B00AAAC02 /* FitUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0966AD1F21A71C00AAAC02 /* Build configuration list for PBXNativeTarget "FitUtil" */;
+			buildPhases = (
+				EE09667C1F21A71B00AAAC02 /* Sources */,
+				EE09667D1F21A71B00AAAC02 /* Frameworks */,
+				EE09667E1F21A71B00AAAC02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitUtil;
+			productName = FitUtil;
+			productReference = EE0966801F21A71B00AAAC02 /* FitUtil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE0966981F21A71C00AAAC02 /* FitUtilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0966B01F21A71C00AAAC02 /* Build configuration list for PBXNativeTarget "FitUtilTests" */;
+			buildPhases = (
+				EE0966951F21A71C00AAAC02 /* Sources */,
+				EE0966961F21A71C00AAAC02 /* Frameworks */,
+				EE0966971F21A71C00AAAC02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE09669B1F21A71C00AAAC02 /* PBXTargetDependency */,
+			);
+			name = FitUtilTests;
+			productName = FitUtilTests;
+			productReference = EE0966991F21A71C00AAAC02 /* FitUtilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE0966A31F21A71C00AAAC02 /* FitUtilUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0966B31F21A71C00AAAC02 /* Build configuration list for PBXNativeTarget "FitUtilUITests" */;
+			buildPhases = (
+				EE0966A01F21A71C00AAAC02 /* Sources */,
+				EE0966A11F21A71C00AAAC02 /* Frameworks */,
+				EE0966A21F21A71C00AAAC02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE0966A61F21A71C00AAAC02 /* PBXTargetDependency */,
+			);
+			name = FitUtilUITests;
+			productName = FitUtilUITests;
+			productReference = EE0966A41F21A71C00AAAC02 /* FitUtilUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE0966781F21A71B00AAAC02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LXJ;
+				TargetAttributes = {
+					EE09667F1F21A71B00AAAC02 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					EE0966981F21A71C00AAAC02 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = JY5XTQR35R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE09667F1F21A71B00AAAC02;
+					};
+					EE0966A31F21A71C00AAAC02 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = JY5XTQR35R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE09667F1F21A71B00AAAC02;
+					};
+				};
+			};
+			buildConfigurationList = EE09667B1F21A71B00AAAC02 /* Build configuration list for PBXProject "FitUtil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE0966771F21A71B00AAAC02;
+			productRefGroup = EE0966811F21A71B00AAAC02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE09667F1F21A71B00AAAC02 /* FitUtil */,
+				EE0966981F21A71C00AAAC02 /* FitUtilTests */,
+				EE0966A31F21A71C00AAAC02 /* FitUtilUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE09667E1F21A71B00AAAC02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0966931F21A71C00AAAC02 /* LaunchScreen.storyboard in Resources */,
+				EE0966901F21A71C00AAAC02 /* Assets.xcassets in Resources */,
+				EE09668E1F21A71C00AAAC02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0966971F21A71C00AAAC02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0966A21F21A71C00AAAC02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE09667C1F21A71B00AAAC02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE09668B1F21A71C00AAAC02 /* ViewController.mm in Sources */,
+				EEDD8B371F25A6CC00115251 /* Example.mm in Sources */,
+				EE4EE5E11F21DC830027F7CF /* FitEncoder.mm in Sources */,
+				EE0966881F21A71C00AAAC02 /* AppDelegate.m in Sources */,
+				EE0966851F21A71C00AAAC02 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0966951F21A71C00AAAC02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE09669E1F21A71C00AAAC02 /* FitUtilTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0966A01F21A71C00AAAC02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0966A91F21A71C00AAAC02 /* FitUtilUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE09669B1F21A71C00AAAC02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE09667F1F21A71B00AAAC02 /* FitUtil */;
+			targetProxy = EE09669A1F21A71C00AAAC02 /* PBXContainerItemProxy */;
+		};
+		EE0966A61F21A71C00AAAC02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE09667F1F21A71B00AAAC02 /* FitUtil */;
+			targetProxy = EE0966A51F21A71C00AAAC02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE09668C1F21A71C00AAAC02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE09668D1F21A71C00AAAC02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE0966911F21A71C00AAAC02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE0966921F21A71C00AAAC02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE0966AB1F21A71C00AAAC02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE0966AC1F21A71C00AAAC02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE0966AE1F21A71C00AAAC02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FitUtil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lxj.FitUtil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE0966AF1F21A71C00AAAC02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FitUtil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lxj.FitUtil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE0966B11F21A71C00AAAC02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JY5XTQR35R;
+				INFOPLIST_FILE = FitUtilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lxj.FitUtilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitUtil.app/FitUtil";
+			};
+			name = Debug;
+		};
+		EE0966B21F21A71C00AAAC02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JY5XTQR35R;
+				INFOPLIST_FILE = FitUtilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lxj.FitUtilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitUtil.app/FitUtil";
+			};
+			name = Release;
+		};
+		EE0966B41F21A71C00AAAC02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JY5XTQR35R;
+				INFOPLIST_FILE = FitUtilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lxj.FitUtilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FitUtil;
+			};
+			name = Debug;
+		};
+		EE0966B51F21A71C00AAAC02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JY5XTQR35R;
+				INFOPLIST_FILE = FitUtilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lxj.FitUtilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FitUtil;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE09667B1F21A71B00AAAC02 /* Build configuration list for PBXProject "FitUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0966AB1F21A71C00AAAC02 /* Debug */,
+				EE0966AC1F21A71C00AAAC02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE0966AD1F21A71C00AAAC02 /* Build configuration list for PBXNativeTarget "FitUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0966AE1F21A71C00AAAC02 /* Debug */,
+				EE0966AF1F21A71C00AAAC02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE0966B01F21A71C00AAAC02 /* Build configuration list for PBXNativeTarget "FitUtilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0966B11F21A71C00AAAC02 /* Debug */,
+				EE0966B21F21A71C00AAAC02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE0966B31F21A71C00AAAC02 /* Build configuration list for PBXNativeTarget "FitUtilUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0966B41F21A71C00AAAC02 /* Debug */,
+				EE0966B51F21A71C00AAAC02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE0966781F21A71B00AAAC02 /* Project object */;
+}
