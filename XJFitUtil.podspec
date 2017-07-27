@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
 
   s.source_files         = "XJFitUtil/*.{h,mm,hpp,cpp}"  
 
-  s.vendored_libraries   ='XJFitUtil/libPods-FitSdkCppiOS.a'
-  s.libraries            = 'c++'
+  s.vendored_libraries   = 'XJFitUtil/libPods-FitSdkCppiOS.a'
+  s.libraries            = 'stdc++'
   s.frameworks           = 'UIKit', 'Foundation'
 
 end
