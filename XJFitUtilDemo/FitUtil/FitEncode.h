@@ -18,7 +18,6 @@
 #if !defined(FIT_ENCODE_H)
 #define FIT_ENCODE_H
 
-#include <vector>
 #include "fit.hpp"
 #include "fit_mesg.hpp"
 #include "fit_mesg_definition.hpp"

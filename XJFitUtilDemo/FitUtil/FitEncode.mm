@@ -23,6 +23,7 @@
 #include "fit.hpp"
 #include "fit_crc.hpp"
 #include "fit_protocol_validator.hpp"
+#include <vector>
 
 // Declare all private variables
 

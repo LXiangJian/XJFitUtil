@@ -15,6 +15,7 @@
 		EE0966931F21A71C00AAAC02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0966911F21A71C00AAAC02 /* LaunchScreen.storyboard */; };
 		EE09669E1F21A71C00AAAC02 /* FitUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE09669D1F21A71C00AAAC02 /* FitUtilTests.m */; };
 		EE0966A91F21A71C00AAAC02 /* FitUtilUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0966A81F21A71C00AAAC02 /* FitUtilUITests.m */; };
+		EE201F981F298643007DC215 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2E73501F289D7200389F93 /* libc++.tbd */; };
 		EE4EE5E11F21DC830027F7CF /* FitEncoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = EE4EE5E01F21DC830027F7CF /* FitEncoder.mm */; };
 		EEB510EA1F288F5C00104F49 /* libPods-FitSdkCppiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB510E91F288F5C00104F49 /* libPods-FitSdkCppiOS.a */; };
 		EEDD8B371F25A6CC00115251 /* Example.mm in Sources */ = {isa = PBXBuildFile; fileRef = EEDD8B361F25A6CC00115251 /* Example.mm */; };
@@ -67,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE201F981F298643007DC215 /* libc++.tbd in Frameworks */,
 				EEB510EA1F288F5C00104F49 /* libPods-FitSdkCppiOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
